@@ -1,16 +1,16 @@
 # shell-scripts
 
-### sort by start_time asc
+## sort by start_time asc
 #####  ps -aux --sort=start_time | tail -n10
 
-### sort by memory usage 
+## sort by memory usage 
 ##### ps aux --sort -rss    // desc
 ##### ps aux --sort rss     // remove '-' to sort asc
 
 #### ps aux --sort -pid
 #### ps -eo pid,user,%cpu,%mem,time,ruid,etime,bsdstart --sort -%mem | head -n10
 
-### check free memory
+## check free memory
 #### free -m
 #### cat /proc/meminfo
 #### top

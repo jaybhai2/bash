@@ -8,7 +8,12 @@
 #### ps aux --sort rss     // remove '-' to sort asc
 
 ### ps aux --sort -pid
+### ps -eo pid,user,%cpu,%mem,time,ruid,etime,bsdstart --sort -%mem | head -n10
 
+### check free memory
+## free -m
+## cat /proc/meminfo
+## top
 https://alvinalexander.com/linux/unix-linux-process-memory-sort-ps-command-cpu
 ```
 STANDARD FORMAT SPECIFIERS

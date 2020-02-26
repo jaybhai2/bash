@@ -1,19 +1,19 @@
 # shell-scripts
 
 ### sort by start_time asc
-####  ps -aux --sort=start_time | tail -n10
+#####  ps -aux --sort=start_time | tail -n10
 
 ### sort by memory usage 
-#### ps aux --sort -rss    // desc
-#### ps aux --sort rss     // remove '-' to sort asc
+##### ps aux --sort -rss    // desc
+##### ps aux --sort rss     // remove '-' to sort asc
 
-### ps aux --sort -pid
-### ps -eo pid,user,%cpu,%mem,time,ruid,etime,bsdstart --sort -%mem | head -n10
+#### ps aux --sort -pid
+#### ps -eo pid,user,%cpu,%mem,time,ruid,etime,bsdstart --sort -%mem | head -n10
 
 ### check free memory
-## free -m
-## cat /proc/meminfo
-## top
+#### free -m
+#### cat /proc/meminfo
+#### top
 https://alvinalexander.com/linux/unix-linux-process-memory-sort-ps-command-cpu
 ```
 STANDARD FORMAT SPECIFIERS

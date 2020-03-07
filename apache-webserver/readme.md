@@ -10,4 +10,9 @@ systemctl enable httpd.service
 
 curl localhost:80
 
-browse the web publicip of the server
+curl ifconfig.me
+
+place any index.html to /var/www/html/
+
+change security group setting, add http inbound
+

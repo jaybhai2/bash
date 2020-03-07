@@ -7,6 +7,7 @@ hostname -I
 ### scp secure copy file from local to remote machine,
 ```
 scp data.txt jay@104.211.47.75:~/data/
+// scp -i identity/file/path source target
 ```
 ### Set up SSH Tunneling in Windows
 1. open putty, enter hostname and port = 22

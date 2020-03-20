@@ -15,3 +15,7 @@ curl ifconfig.me
 place any index.html to /var/www/html/
 
 change security group setting, add http inbound
+
+```
+rpm -ql httpd.x86_64 | grep 'bin'
+```

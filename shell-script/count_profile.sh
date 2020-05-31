@@ -10,6 +10,10 @@ set -x
 timeStamp=$(date '+%m%d%Y_%H%M')
 hostname='000.000.0.00'
 
+#exec > "log_$timeStamp.txt" 2>&1
+#exec 2> "log_$timeStamp.txt" 
+
+
 echo "profile_type,table_name,column_name,column_value,count" > profile_report.csv
 
 ## IFS= option prevent leading/trailing space from being trimmed

@@ -16,3 +16,18 @@ scp data.txt jay@104.211.47.75:~/data/
 4. go to fire fox, connection setting, 
 5. check'Manual proxy configuration' box -> enter SOCKS Host= localhost -> check 'SOCKS v5' box -> check 'Proxy DNS when using SOCKS v5' box
 6. whatismyip.com
+
+### list port lisener 
+```
+In window 
+netstat -ano | find "8080"
+  TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       8132
+  TCP    [::]:8080              [::]:0                 LISTENING       8132
+
+taskkill /pid 18264 /f
+
+Linux
+
+netstat -nap | grep 8080
+
+```

@@ -1,3 +1,8 @@
+### inline executor using tick ` 
+```
+date=`date '+%Y%m%d'` 
+```
+
 ### check ip
 ```
 ifconfig -a

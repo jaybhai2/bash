@@ -28,6 +28,14 @@ scp data.txt jay@104.211.47.75:~/data/
 ```
 for f in *.csv; do mv "$f" "$(echo "$f" | sed s/IMG/VACATION/)"; done
 ```
+### nohup
+```
+#nohup job must end with a '&' to tell it to run in background
+nohup bin/zookeeper-server-start.sh config/zookeeper.properties > ~/nohup.out 2> ~/nohup.err < /dev/null &
+# send standard out to home/nohup.out and send standard error to home/nohup.err
+# jobs -l # to list running nohup job in current shell session. OR ps -ef | grep "nohup "
+# jps -l
+```
 
 ### list port lisener 
 ```

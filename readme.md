@@ -22,6 +22,12 @@ scp data.txt jay@104.211.47.75:~/data/
 5. check'Manual proxy configuration' box -> enter SOCKS Host= localhost -> check 'SOCKS v5' box -> check 'Proxy DNS when using SOCKS v5' box
 6. whatismyip.com
 
+
+### rename file with pattern
+```
+for f in *.csv; do mv "$f" "$(echo "$f" | sed s/IMG/VACATION/)"; done
+```
+
 ### list port lisener 
 ```
 In window 

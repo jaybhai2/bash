@@ -21,6 +21,7 @@ scp data.txt jay@104.211.47.75:~/data/
 4. go to fire fox, connection setting, 
 5. check'Manual proxy configuration' box -> enter SOCKS Host= localhost -> check 'SOCKS v5' box -> check 'Proxy DNS when using SOCKS v5' box
 6. whatismyip.com
+7. 0.0.0.0:8080
 
 
 ### rename file with pattern

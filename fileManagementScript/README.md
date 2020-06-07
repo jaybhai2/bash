@@ -19,7 +19,7 @@ fi
 
 ```
 
-### count 1,+2,+3,+4 ,  while Do Done
+### count 1,+2,+3,+4 , While Do Done
 ```
 #! /bin/bash
 

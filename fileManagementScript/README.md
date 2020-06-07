@@ -1,3 +1,5 @@
+https://www.gnu.org/software/bash/manual/html_node/Bash-Conditional-Expressions.html
+
 ### Delete empty file,   if then else if 
 ```
 #! /bin/bash

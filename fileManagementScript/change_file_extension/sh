@@ -1,8 +1,0 @@
-
-
-path=/home/ec2-user/
-file_starting=log
-
-file=$(ls -t $path$filestarting*)
-
-

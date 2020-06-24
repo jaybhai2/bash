@@ -55,7 +55,11 @@ netstat -nap | grep 8080
 ```
 sudo adduser jay
 # provider sudo priviledge
-sudo usermod -aG sudo jay
-
-
+sudo usermod -aG sudo jay=
+```
+### RDP server https://datawookie.netlify.app/blog/2017/08/remote-desktop-on-an-ubuntu-ec2-instance/
+```
+sudo apt install -y ubuntu-desktop xrdp
+nano /etc/xrdp/xrdp.ini
+sudo service xrdp restart
 ```

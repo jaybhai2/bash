@@ -62,4 +62,7 @@ sudo usermod -aG sudo jay=
 sudo apt install -y ubuntu-desktop xrdp
 nano /etc/xrdp/xrdp.ini
 sudo service xrdp restart
+sudo apt install -y xfce4 xfce4-goodies
+echo unity >~/.xsession
+# echo xfce4-session >~/.xsession
 ```

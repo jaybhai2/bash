@@ -51,3 +51,11 @@ Linux
 netstat -nap | grep 8080
 
 ```
+### add user
+```
+sudo adduser jay
+# provider sudo priviledge
+sudo usermod -aG sudo jay
+
+
+```

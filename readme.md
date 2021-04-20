@@ -1,3 +1,8 @@
+### find keyword in all .py files
+```
+$find . -name \*.py -exec grep -q "keyword" '{}' \; -print
+```
+
 ### inline executor using tick ` 
 ```
 date=`date '+%Y%m%d'` 
